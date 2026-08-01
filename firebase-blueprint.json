@@ -1,0 +1,24 @@
+{
+  "collections": [
+    {
+      "name": "clinicData",
+      "description": "Stores the clinic configuration and data.",
+      "securityRules": {
+        "read": "true",
+        "write": "true"
+      },
+      "schema": {
+        "type": "object",
+        "properties": {
+          "testimonials": { "type": "array" },
+          "reviews": { "type": "array" },
+          "transformations": { "type": "array" },
+          "doctors": { "type": "array" },
+          "services": { "type": "array" },
+          "conditions": { "type": "array" },
+          "clinicContext": { "type": "string" }
+        }
+      }
+    }
+  ]
+}
